@@ -158,7 +158,8 @@ fieldset {
 .account-transactions {
     flex-basis: auto;
     flex-grow: 1;
-    background-color: rgb(219, 238, 237);    
+    background-color: rgb(219, 238, 237); 
+    display: none;   
 }
 
 .logo {
@@ -193,3 +194,10 @@ td, th {
 	text-align: left; 
 	font-size: 14px;
 	}
+
+     #alert{
+         margin-left: 30px;
+        color: #3826c5;
+       font-size: 25px;
+       display: none;
+    }
